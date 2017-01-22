@@ -18,8 +18,9 @@ googleAnalytics = "UA-90751004-1"
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  email = "candptea@gmail.com"
+  name = "Perry"
+  description = "Test"
 #  publishDir = "docs"
   # Link custom assets relative to /static
   custom_css = []
@@ -316,8 +317,8 @@ She worked at Pied Piper for years until they went belly up."""
     email = "candptea@gmail.com"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    thanks = "Thank you for awesomely contacting us."
+    error = "Message could not be send. Please contact us at candptea@gmail.com instead."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
