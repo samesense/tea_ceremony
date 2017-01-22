@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://samesense.github.io/wedding/"
+baseurl = "https://samesense.github.io/tea_ceremony/"
 languageCode = "en-us"
 title = "Christin/Perry Wedding"
 theme = "hugo-agency-theme"
