@@ -1,5 +1,5 @@
 # Site settings
-publishDir: "docs"
+
 baseurl = "https://samesense.github.io/tea_ceremony/"
 languageCode = "en-us"
 title = "Christin/Perry Wedding"
@@ -20,7 +20,7 @@ googleAnalytics = ""
   # information about you and your website.
   name = "Your name"
   description = "Your description"
-
+#  publishDir = "docs"
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
