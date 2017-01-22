@@ -2,11 +2,11 @@
 
 baseurl = "https://samesense.github.io/tea_ceremony/"
 languageCode = "en-us"
-title = "Christin/Perry Wedding"
+title = "Christin/Perry Tea Ceremony"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-90751004-1"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -71,15 +71,13 @@ googleAnalytics = ""
       name = "Chinese Site"
       weight = 10
 
-
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "Christin & Perry"
-    subtitle = "Hong Kong Wedding"
+    subtitle = "Hong Kong Tea Ceremony"
     buttonText = "RSVP"
-
 
   # Event section
   [params.services]
