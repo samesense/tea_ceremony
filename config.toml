@@ -1,4 +1,5 @@
 # Site settings
+publishDir: "docs"
 baseurl = "https://samesense.github.io/tea_ceremony/"
 languageCode = "en-us"
 title = "Christin/Perry Wedding"
@@ -80,33 +81,33 @@ googleAnalytics = ""
     buttonText = "RSVP"
 
 
-  # Services section
+  # Event section
   [params.services]
     enable = true
-    title = "Event"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Event - Tea Ceremony and Lunch"
+    subtitle = "This is not like an American wedding. The event will include a tea ceremony where we serve tea to elders, and a lunch buffet. There will be no dancing. The main reason why you are here... Details and Customs. How to get here."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-female"
       title = "Attire"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "You might be standing for an hour. Wear appropriate shoes."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-coffee"
       title = "Meal"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "Western-style buffet. Please note dietary restrictions in your RSVP."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-map-marker"
       title = "Location"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "The tea ceremony will be held at [The Peninsula Hong Kong](http://hongkong.peninsula.com/en/default) garden suite on Tuesday, November 21, 2017 from noon to 3pm. Accessible by..."
       url = "#"
 
-  # Portfolio section
+  # Travel section
   [params.portfolio]
     enable = true
     # All projects defined in their own files. You can find example projects
@@ -114,7 +115,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Travel"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Getting there on plane. Getting around."
 
     [params.portfolio.modal]
       client = "Client"
@@ -123,25 +124,42 @@ googleAnalytics = ""
       buttonText = "Close project"
 
 
+    # [[params.services.row]]
+
+    # [[params.services.row.list]]
+    #   icon = "fa-female"
+    #   title = "Attire"
+    #   description = "You might be standing for an hour. Wear appropriate shoes."
+    #   url = "#"
+
+    # [[params.services.row.list]]
+    #   icon = "fa-coffee"
+    #   title = "Meal"
+    #   description = "Western-style buffet. Please note dietary restrictions in your RSVP."
+    #   url = "#"
+    
+
+
+
     # About section
   [params.about]
     enable = true
     title = "Activities"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Here is a sample itenerary. We will be in Hong Kong from XXX to XXX."
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
+      img = "2.jpg"
       date = "2009-2011"
       title = "Fly to Hong Kong"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
+      date = "Tuesday, November 21, "
       title = "Tea Ceremony"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
@@ -162,7 +180,7 @@ googleAnalytics = ""
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
+    center = true
     title = "Our amazing team"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
@@ -172,7 +190,7 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "1.jpg"
-      name = "Kay Garland"
+      name = "Christin"
       position = "Lead Designer"
       reportsTo = "CTO"
       livesIn = "[Munich, Germany](#some-maps-url)"
@@ -192,7 +210,7 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.team.members]]
       img = "2.jpg"
-      name = "Larry Parker"
+      name = "Perry"
       position = "Lead Marketer"
       social = [
         ["fa-twitter", "#"],
@@ -202,13 +220,56 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.team.members]]
       img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      name = "Wing"
+      position = "Christin's father"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
         ["fa-linkedin", "#"]
       ]
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Ada"
+      position = "Christin's mother"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Hoyin"
+      position = "Christin's brother"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Jeff"
+      position = "Perry's father"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Rhonda"
+      position = "Perry's mother"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+
 
   # Client section
     [params.clients_list]
@@ -240,7 +301,7 @@ She worked at Pied Piper for years until they went belly up."""
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
+    title = "RSVP"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
 
