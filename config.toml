@@ -21,7 +21,7 @@ googleAnalytics = "UA-90751004-1"
   email = "candptea@gmail.com"
   name = "Perry"
   description = "Test"
-#  publishDir = "docs"
+  publishDir = "docs"
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
